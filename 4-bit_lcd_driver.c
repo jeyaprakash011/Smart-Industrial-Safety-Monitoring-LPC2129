@@ -76,26 +76,6 @@ void lcd_integer(int num)
 			lcd_data(a[i]);
 		}
 }
-void lcd_binary(unsigned char num)
-{
-	int i;
-	for(i=7;i>=0;i--)
-	{
-		if(num&(1<<i))
-			lcd_data('1');
-		else
-			lcd_data('0');
-	}
-}
 
-void lcd_float(float num)
-{
-	int i,f;
-	i=num;
-	f=((num-i)*100);
-	lcd_data(i);
-	lcd_data('.');
-	lcd_data(f);
-}
 
 
