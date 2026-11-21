@@ -26,5 +26,4 @@ void lcd_cmd(unsigned char cmd);
 void lcd_init();
 void lcd_string(char *ptr);
 void lcd_integer(int num);
-void lcd_binary(unsigned char num);
-void lcd_float(float num);
+
