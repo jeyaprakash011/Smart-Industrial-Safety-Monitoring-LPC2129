@@ -1,9 +1,9 @@
 
 #include"header.h"
 
-#define GREEN_LED     (1<<17)
-#define YELLOW_LED    (1<<18)
-#define RED_LED       (1<<19)
+#define GREEN_LED     (1<<0)
+#define YELLOW_LED    (1<<1)
+#define RED_LED       (1<<2)
 #define PIR_PIN       (1<<30)
 #define FLAME_PIN     (1<<5)
 #define SAFE          0
